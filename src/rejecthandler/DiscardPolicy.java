@@ -1,4 +1,10 @@
-package rejecthandler;
+package src.rejecthandler;
 
-public class DiscardPolicy {
+import src.MyThreadPool;
+
+public class DiscardPolicy implements RejectHandler {
+    @Override
+    public void handle(Runnable r, MyThreadPool myThreadPool) {
+
+    }
 }
